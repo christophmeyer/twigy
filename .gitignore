@@ -1,0 +1,6 @@
+bin
+data
+build
+.vscode
+**/__pycache__
+*.so

@@ -1,0 +1,1 @@
+docker build -t cmeyr/manylinux2014_x86_64_boost166:latest . 
