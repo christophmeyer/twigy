@@ -4,6 +4,8 @@ This repository contains a C++ implementation of the CART algorithm (currently, 
 
 ## Getting Started
 
+There are the following three options to get started using twigy in python:
+
 ### 1. Use pip install 
 
 `pip install twigy`

@@ -1,9 +1,6 @@
 import numpy as np
 import twigy
 import pandas as pd
-from sklearn import tree
-from sklearn import ensemble
-import time
 
 # read and prepare training data
 titanic_data = pd.read_csv("./test/testdata/titanic_data.csv")
