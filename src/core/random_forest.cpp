@@ -80,6 +80,7 @@ std::vector<int> RandomForestClassifier::PredictClasses(
   class_probas.reserve(n_labels_);
 
   for (std::size_t i = 0; i < n_samples_inference; i++) {
+    class_probas.clear();
     for (int k = 0; k < n_labels_; k++) {
       class_probas.emplace_back(0.0);
     }
