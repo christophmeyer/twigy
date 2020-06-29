@@ -12,7 +12,11 @@ There are the following three options to get started using twigy in python:
 
 ### 2. Build manylinux wheel from source
 
-The manylinux wheel is build in a CentOS 7 docker container, so you need to have docker installed. Then run
+The manylinux wheel is build in a CentOS 7 docker container, so you need to have docker installed. Also make sure you pulled the `pybind11` git submodule as well with
+
+`git submodule update --init --recursive`
+
+Then run
 
 `./build_manylinux_wheel.sh`
 
@@ -22,7 +26,11 @@ which will build the manylinux wheel. Then you can
 
 ### 3. Build extension library from source
 
-To directly build the python extension library, you need cmake >= 3.10 and boost >= 1.66 on your system.
+To directly build the python extension library, you need cmake >= 3.10 and boost >= 1.66 on your system. Make sure you pulled the `pybind11` git submodule as well with
+
+`git submodule update --init --recursive`
+
+Then
 
 `cd ./build && cmake ..`
 
